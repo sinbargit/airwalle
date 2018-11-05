@@ -1,0 +1,45 @@
+.info{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info .container
+{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.info .container .msg
+{
+    font-size: 14px;
+}
+.info .container input
+{
+    width: 280px;
+    margin:5px 0;
+    height: 35px;
+}
+.info .container .btn
+{
+    margin:15px 0;
+    width: 280px;
+    text-align: center;
+    line-height: 35px;
+    border:1px solid lightgray;
+    cursor: pointer;
+    color: lightgray;
+}
+.info .container .btn.can-send
+{
+    color: black;
+    border-color: black;
+}

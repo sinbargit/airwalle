@@ -1,0 +1,10 @@
+.header{
+    position: fixed;
+    top: 0;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 10%;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    color: gray;
+}

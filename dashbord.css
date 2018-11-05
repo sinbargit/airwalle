@@ -1,0 +1,25 @@
+.dashbord{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dashbord .title{
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    color: gray;
+}
+.dashbord .desc{
+    line-height: 60px;
+}
+.dashbord .join{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid;
+    color: gray;
+    cursor: pointer;
+}
