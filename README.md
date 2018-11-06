@@ -1,4 +1,4 @@
-# Airewallex
+# Airwallex
 
-### Airewallex written examination 
+### Airwallex written examination 
 ### run it with npm run dev
